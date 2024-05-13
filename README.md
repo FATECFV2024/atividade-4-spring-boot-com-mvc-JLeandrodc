@@ -1,42 +1,30 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ra9rFiTg)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14997720&assignment_repo_type=AssignmentRepo)
-# Atividade 4
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WSWg-P70)
+# Atividade 3
 
 ## Sumário 
+- [Como Utilizar Esse Projteto](#como-utilizar-esse-projeto-)
 - [Escopo da Atividade ](#escopo-da-atividade-%EF%B8%8F)
 - [No Microsoft Teams](#no-microsoft-teams--)
 - [Regras](#regras-)
 - [Feedback](#feedback-)
+
+## Como Utilizar Esse Projeto 📁
+
+- Nesse projeto há uma pastas:
+    - FazerVsCode:Exclusiva para realizar no VisualStudio Code. 
 
 
 ## Escopo da Atividade 🛠️
 
 ### Configuração Inicial 
 - Configure uma aplicação Spring Boot com um projeto Maven
-- Adicione as dependências necessárias para criar um aplicativo web
-- Utilize o MySQL ou MariaDB para integrar com a aplicação
-  
-### Implementação as Classes Modelos e DAO
-
-- **Em continuidade a atividade 3** e com base do material da aula 08 crie um projeto no padrão MVC com as seguintes características:
-- Crie as seguintes Classes Models
-    - Aluno
-        - Atributos:
-            - String nome e curso
-            - Int idade
-            - Boolean Matricula 
-    - Nota:
-      - Atributos:
-        - String nome_disciplina
-        - Double nota
-    - Endereco:
-      - Atributos:
-        - String rua, cidade, estado e cep
-        - Int numero
-- Crie as classes DAO para as Classes Models
-- Crie as classes Services para implemntar as 4 operações do CRUD
-- A partir das classes Controllers criadas na atividade 3, as modifique para atender a chamada da API REST
-     
+- dicione as dependências necessárias para criar um aplicativo web
+### Implementação dos Métodos HTTP
+- Crie uma classe de controle para manipular os pedidos HTTP, com as seguintes operações:
+  - GET: Retornar os dados do JSON enviados no POST.
+  - POST: Receber dados JSON e exibi-los na resposta.
+  - PUT: Substituir os dados do JSON enviados no POST.
+  - DELETE: Remover os dados do JSON enviados no POST.
 Veja um exemplo de JSON
 ![carbon - 2024-04-09T145653 605](https://github.com/FATECFV2024/atividade-3-ds/assets/98854868/c9f827f4-d432-44aa-a93f-5bc00a0f1acb)
 
@@ -55,9 +43,9 @@ Veja um exemplo de JSON
 - Utilize as boas práticas de programação que são sempre mencionadas em aula e nos materiais; 
 - Observe sempre os modificadores de acesso em atributos e métodos;
 - Observe os nomes de classes e atributos;
-- Utilize comentários para elucidar o cenário elaborado;
+- Utilze comentários para elucidar o cenário elaborado;
 
 ## Feedback 📨
--  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da M2;
+-  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da M1;
 -  A nota será atribuída no Microsoft Teams
 
